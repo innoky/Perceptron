@@ -1,0 +1,37 @@
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.log
+*.a
+*.so
+*.dll
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VS Code
+.vscode/
+
+# CLion
+.idea/
+
+# Visual Studio
+*.sdf
+*.opensdf
+*.VC.db
+*.vcxproj*
+*.pdb
+*.idb
+*.ipch
+
+# Mac
+.DS_Store
+
+# Other
+*.swp
+*.tmp
