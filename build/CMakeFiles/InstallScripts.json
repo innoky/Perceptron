@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/MezeraEngine/MezeraNeuron/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

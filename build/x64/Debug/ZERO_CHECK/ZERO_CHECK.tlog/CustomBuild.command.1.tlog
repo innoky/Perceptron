@@ -1,0 +1,10 @@
+^D:\MEZERAENGINE\MEZERANEURON\BUILD\CMAKEFILES\B7C21643D92A60BB2B9EE6A1AB74086C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/MezeraEngine/MezeraNeuron -BD:/MezeraEngine/MezeraNeuron/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MezeraEngine/MezeraNeuron/build/MezeraNeuron.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
